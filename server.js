@@ -9,10 +9,10 @@
 
 
 // dependencies
-var express    = require('express');        
-var app        = express(); 
-var router= express.Router();
-var route = require('./routes/route');
+var express = require('express');        
+var app 	= express(); 
+var router 	= express.Router();
+var route 	= require('./routes/route');
 var bodyParser = require('body-parser');
 
 
