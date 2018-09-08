@@ -134,13 +134,13 @@ router.route('/contact')
 	var input = req.body;
 
 	//check for unique name
-	client.search({       //searching the elasticsearch index
+	client.search({     
 		index: indexName,
 		type: 'contact',
 		body: {
 			query: {
 				query_string:{
-					query: input.name // the query string is the name of the contact
+					query: input.name 
 				}
 			}
 		}
