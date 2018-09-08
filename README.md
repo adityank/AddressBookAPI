@@ -7,10 +7,10 @@ MSIT-SE 2018
 ---------------------------------------------------------------------------------------------------
 
 Dependencies:
-Node.js
-Express
-Mocha
-Elasticsearch
+*	Node.js
+*	Express
+*	Mocha
+*	Elasticsearch
 
 ---------------------------------------------------------------------------------------------------
 
@@ -47,7 +47,7 @@ Installation on Windows:
 			  "tagline" : "You Know, for Search"
 			}
 
-If you cannot see this, reinstall elasticsearch properly.
+	If you cannot see this, reinstall elasticsearch properly.
 
 4. Create an index for the app by running following command:
 	curl -X PUT "localhost:9200/addressbook"
